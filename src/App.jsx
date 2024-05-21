@@ -1,8 +1,12 @@
+import Background from "./components/Background";
+import ForGround from "./components/ForGround";
+
 function App() {
   return (
-    <>
-      <h1>Setup, Done !</h1>
-    </>
+    <div className="w-full h-screen bg-zinc-800 relative">
+      <Background />
+      <ForGround />
+    </div>
   );
 }
 
